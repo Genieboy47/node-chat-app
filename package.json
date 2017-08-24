@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node Server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
   "engines": {
     "node": "8.1.2"
   },
-  
+
   "author": "",
   "license": "ISC",
   "dependencies": {
