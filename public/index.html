@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
   </head>
   <body>
     <p>Welcom to the chat app</p>
@@ -13,7 +14,10 @@
     <form id="message-form">
       <input type="text" name="message" placeholder="Message">
       <button type="submit" name="button">Send</button>
+
     </form>
+
+    <button type="button" id="send-location" name="location">Send Location</button>
 
     <script src="/socket.io/socket.io.js" type="text/javascript"></script>
     <script src="/js/libs/jquery-3.2.1.min.js" type="text/javascript"></script>
